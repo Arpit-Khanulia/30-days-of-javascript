@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css variables</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h1>CSS Variables</h1>
+    </div>
+
+    <div class="controls">
+      <div class="rangebox">
+        <p>Frame width</p>
+        <input name="framewidth" class="inputcontrol" type="range" min="1" max="50" value="12" data-sizing="px" />
+      </div>
+      <div class="rangebox">
+        <p>Blur</p>
+        <input name="blur" class="inputcontrol" type="range" min="0" max="10" value="0" data-sizing="px" />
+      </div>
+      <div class="rangebox">
+        <p>Border Radius</p>
+        <input name="borderradius" class="inputcontrol" type="range" min="0" max="250" value="0" data-sizing="px" />
+      </div>
+      <div class="rangebox">
+        <p>Border Colour</p>
+        <input name="color" class="color inputcontrol" type="color" name="" id="" />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="frame"></div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
