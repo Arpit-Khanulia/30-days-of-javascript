@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
   font-family: "Realmadrid";
+  overflow: hidden;
 }
 
 body {
@@ -25,20 +26,6 @@ body {
   align-items: center;
   font-weight: bold;
   color: #134b70;
-}
-@media (max-width: 1216px) {
-  /* styles here */
-
-  .heading {
-    font-size: 4rem;
-  }
-}
-@media (max-width: 688px) {
-  /* styles here */
-
-  .heading {
-    font-size: 2.4rem;
-  }
 }
 
 .container {
@@ -89,6 +76,33 @@ body {
   justify-content: space-between;
 }
 
-.highlight{
-    background-color: #ffaf00;
+.highlight {
+  background-color: #ffaf00;
+}
+
+@media (max-width: 1216px) {
+  /* styles here */
+
+  .heading {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 688px) {
+  /* styles here */
+
+  .heading {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 416px) {
+  /* styles here */
+
+  .heading {
+    font-size: 2.1rem;
+  }
+
+  .searchbox {
+    width: 20rem;
+    margin-top: 0.7rem;
+  }
 }
